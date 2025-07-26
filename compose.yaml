@@ -58,5 +58,4 @@ services:
 networks:
    home:
      external: true
-   xibo_default:
-     external: true
+   xibo:
