@@ -38,7 +38,7 @@ services:
         mem_limit: 1g
         networks:
             - home
-            - xibo
+            - default
         labels:
             - "traefik.enable=true"
             - "traefik.http.routers.xibo.rule=Host(`xibo.lab.doepkes.de`)"
@@ -58,4 +58,4 @@ services:
 networks:
    home:
      external: true
-   xibo:
+   default:
